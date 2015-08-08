@@ -13,6 +13,17 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+		#navList>li>a{
+			position:relative;
+		}
+			#navList>li>a>i.fa{
+				position:absolute;
+				right: 25%;
+				top:20px;
+			}
+		</style>
 				
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -21,18 +32,18 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<span class="image avatar" ><img src="images/colonyheader.png" alt="" /></span>
 					<h1 id="logo"><a href="#one">The Colony</a></h1>
 					<p>6 person apartments in Provo</p>
 				</header>
 				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">Our Apartments</a></li>
-						<li><a href="#contactus">Contact Us</a></li>
-						<li><a href="#two">Rental Rates</a></li>
-						<li><a href="#three">Sign Up Online</a></li>
-						<li><a href="#four">News &amp; Info </a></li>
-						<!--li><a href="https://ueweb.byu.edu">Tenant Login</a></li-->
+					<ul id="navList">
+						<li><a href="#one" class="active"><i class="fa fa-home"></i> Our Apartments</a></li>
+						<li><a href="#contactus"><i class="fa fa-comment"></i> Contact Us</a></li>
+						<li><a href="#two"><i class="fa fa-money"></i> Rental Rates</a></li>
+						<li><a href="#three"><i class="fa fa-pencil"></i> Sign Up Online</a></li>
+						<li><a href="#four"><i class="fa fa-newspaper-o"></i> News &amp; Info </a></li>
+						<li><a href="https://ueweb.byu.edu"><i class="fa fa-sign-in"></i> Tenant Login</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -41,6 +52,7 @@
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon fa-phone"><span class="label">Call</span></a></li>
 						<li><a href="mailto:office@thecolony-apts.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.google.com/maps/place/The+Colony+Apartments/@40.2390474,-111.645764,15z/data=!4m2!3m1!1s0x0:0xa8598a9da89fed59" class="icon fa-map-marker"><span class="label">Location</span></a></li>
 					</ul>
 				</footer>
 			</section>
